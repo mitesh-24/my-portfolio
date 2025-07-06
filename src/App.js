@@ -1,5 +1,5 @@
 import './App.css';
-import Hello from './hello';
+import Hero from './hero';
 import About from './about';
 import Projects from './projects';
 import Contact from './contact';
@@ -7,7 +7,7 @@ import Contact from './contact';
 function App() {
   return (
     <div>
-      <Hello name = 'Mitesh'/>
+      <Hero />
       <About />
       <Projects />
       <Contact />
